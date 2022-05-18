@@ -37,7 +37,7 @@ class App extends Component {
           <Header />
           <Routes>
             <Route path="/translate" element={<Translate />} />
-            <Route path="/search" element={<Search />} />
+            <Route path="/" element={<Search />} />
             <Route path="/videosearch" element={<VideoApp />} />
           </Routes>
         </div>

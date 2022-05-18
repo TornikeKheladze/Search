@@ -7,7 +7,7 @@ const Header = () => {
       <Link to="/translate" className="item">
         Translate
       </Link>
-      <Link to="/search" className="item">
+      <Link to="/" className="item">
         Wikipedia Search
       </Link>
       <Link to="/videosearch" className="item">
